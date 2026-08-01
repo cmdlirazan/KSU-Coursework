@@ -1,0 +1,34 @@
+`default_nettype none
+`timescale 1ns/1ps
+
+module testbench;
+	reg s;
+  	reg r;
+	reg en;
+  	wire q;
+  	wire q_not;
+  
+	sr_latch uut (
+    	.s(s),
+    	.r(r),
+    	.q(q),
+    	.q_not(q_not)
+  	);
+  
+  initial begin
+    	s = 0; r = 0; #10;	
+        s = 0; r = 1; #10;
+        s = 1; r = 0; #10;
+    	s = 1; r = 1; #10;
+    	$finish;
+    end
+  initial begin
+    $monitor("Time: %2d | s: %b | r: %b | q: %b | q_not: %b", $time, s, r, q, q_not);
+    end
+
+    initial begin
+      $dumpfile("sr_latch");
+        $dumpvars;  
+    end
+
+endmodule 

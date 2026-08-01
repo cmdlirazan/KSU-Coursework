@@ -1,0 +1,21 @@
+/*
+Class: EE 2501
+Section: 07
+Term: Spring 2026
+Instructor: Matthew Abrams
+Names: Christine Marie Lirazan, Qasim Ismail
+Project: Lab 12 Verilog HDL
+*/
+
+module gated_sr_latch (
+  input wire s, r, en,
+  output wire q, q_not
+);
+  
+  wire s_en = ~(s & en);
+  wire r_en = ~(r & en);
+  
+  assign q = ~(s_en & q_not);
+  assign q_not = ~(r_en & q);
+
+endmodule

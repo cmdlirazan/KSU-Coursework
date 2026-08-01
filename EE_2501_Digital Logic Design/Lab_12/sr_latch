@@ -1,0 +1,16 @@
+module sr_latch (
+  input wire s,
+  input wire r,
+  input wire en,
+  output reg q,
+  output reg q_not
+  );
+  
+  always @(*) begin
+    q_not = (!(r & q) & en);
+    q = (!(s & q_not) & en);
+    // q = q;
+    // q_not = q_not;
+  end
+  
+endmodule 

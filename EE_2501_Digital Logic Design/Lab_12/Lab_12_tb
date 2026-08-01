@@ -1,0 +1,58 @@
+/*
+Class: EE 2501
+Section: 07
+Term: Spring 2026
+Instructor: Matthew Abrams
+Names: Christine Marie Lirazan, Qasim Ismail
+Lab: 12 Verilog HDL
+*/
+
+`default_nettype none
+`timescale 1ns/1ps
+
+module testbench;
+  reg s;
+  reg r;
+  reg en;
+  
+  wire q;
+  wire q_not;
+  
+  gated_sr_latch uut (
+    .s(s),
+    .r(r),
+    .en(en),
+    .q(q),
+    .q_not(q_not)
+  );
+  
+  initial begin
+    
+    	$display("Class: EE 2501\nSection: 07\nTerm: Spring 2026\nInstructor: Matthew Abrams\nNames: Christine Marie Lirazan, Qasim Ismail\nLab: 12 Verilog HDL\n");
+    	
+    	$display("Gated SR Latch");
+    	$display("EN S R | Q Q_not | STATE");
+      	$display("--------------------------");
+
+		en = 0; s = 0; r = 0; #10;
+		$display("%b  %b %b | %b   %b   | INITIAL/HOLD", en, s, r, q, q_not);
+
+      	en = 1; s = 1; r = 0; #10;
+    	$display("%b  %b %b | %b   %b   | SET", en, s, r, q, q_not);
+
+      	en = 0; #10;
+    	$display("%b  x x | %b   %b 	 | HOLD", en, q, q_not);
+
+      	en = 1; s = 0; r = 1; #10;
+    	$display("%b  %b %b | %b   %b   | RESET", en, s, r, q, q_not);
+
+      	en = 0; #10;
+    	$display("%b  x x | %b   %b   | HOLD", en, q, q_not);
+
+      	en = 1; s = 1; r = 1; #10;
+    	$display("%b  %b %b | %b   %b   | INVALID", en, s, r, q, q_not);
+    
+			$finish;
+		end
+             
+endmodule     
