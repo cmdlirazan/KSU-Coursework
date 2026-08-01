@@ -1,0 +1,52 @@
+:Author: clirazan
+:Email: clirazan@students.kennesaw.edu
+:Date: 23/07/2026
+:Revision: 1.0
+:License: Public Domain
+
+= Project: PetAir: A Smart Air Safety Monitoring Device for Pets
+
+Abstract–PetAir is an Internet of Things (IoT) device designed to improve home and pet safety by monitoring indoor conditions in real time. The system uses an ESP32 microcontroller, environmental sensors, actuators, and Arduino IoT Cloud to detect unsafe conditions and provide automatic responses. When a hazard is detected, PetAir can activate a fan, sound an alarm, change an RGB LED status indicator, and update the cloud dashboard.
+
+Keywords— Internet of Things, ESP32, Arduino IoT Cloud, Pet Safety, Smart Home
+
+== Step 1: Installation
+1. Install the Arduino IDE.
+2. Install the required ESP32 board package and libraries.
+3. Open the PetAir project.
+4. Configure the Arduino IoT Cloud credentials in `thingProperties.h`.
+
+== Step 2: Assemble the circuit
+Connect the ESP32 development board, ESP32 Shield Board, DHT11 sensor, flame sensor, RGB LED, active buzzer, and DC motor using the JST cables. The circuit layout is shown in Figure 1 of the project paper.
+
+== Step 3: Load the code
+1. Connect the ESP32 board to your computer.
+2. Select the correct board and COM port.
+3. Upload the sketch.
+4. Open the Serial Monitor (115200 baud) to view the system status.
+
+=== Folder structure
+   Lirazan_IoT Hardware Device Project_PetAir
+  ├── Lirazan_IoT Hardware             Device Project_PetAir.ino           => Main Arduino sketch
+  ├── thingProperties.h                                                    => Arduino IoT Cloud properties
+  ├── ReadMe.adoc                                                          => This file
+....
+
+=== License
+This project is released under a Public License.
+
+=== Contributing
+For questions about this project, please contact the author.
+
+=== BOM
+|===
+| ID | Part Name                           | Quantity
+| U1 | ACEBOTT ESP32 Development Board     | 1
+| U2 | ESP32 Shield Board                  | 1
+| S1 | DHT11 Temperature & Humidity Sensor | 1
+| S2 | Flame Sensor                        | 1
+| M1 | DC Motor                            | 1
+| D1 | RGB LED                             | 1
+| B1 | Active Buzzer                       | 1
+| C1 | JST Cables                          | As needed
+|===
