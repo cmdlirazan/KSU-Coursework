@@ -1,0 +1,8 @@
+2026-07-21 23:07:04.719962 | Employee: 1001 | ACCESS GRANTED ૮๑ˆᗜˆ๑ა Door Unlocked
+2026-07-21 23:07:30.538464 | Employee: 1001 | ACCESS DENIED ૮๑ó﹏ò๑ა Attempts Remaining: 2
+2026-07-21 23:07:46.605431 | Employee: 1001 | ACCESS DENIED ૮๑ó﹏ò๑ა Attempts Remaining: 1
+2026-07-21 23:07:56.313601 | Employee: 1001 | ACCOUNT LOCKED ૮๑ˊᯅˋ๑ა Too many failed login attempts.
+2026-07-21 23:18:53.876611 | Employee: 1001 | ACCESS GRANTED ૮๑ˆᗜˆ๑ა Door Unlocked
+2026-07-21 23:20:46.070058 | Employee: 1001 | ACCESS DENIED ૮๑ó﹏ò๑ა Attempts Remaining: 2
+2026-07-21 23:21:12.920385 | Employee: 1001 | ACCESS DENIED ૮๑ó﹏ò๑ა Attempts Remaining: 1
+2026-07-21 23:21:26.525985 | Employee: 1001 | ACCOUNT LOCKED ૮๑ˊᯅˋ๑ა Too many failed login attempts.
