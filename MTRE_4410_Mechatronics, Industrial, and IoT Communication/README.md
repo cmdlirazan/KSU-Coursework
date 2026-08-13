@@ -34,10 +34,3 @@ Selected projects completed independently for MTRE 4410 at Kennesaw State Univer
     <img src="https://github.com/cmdlirazan/KSU-Coursework/blob/main/MTRE_4410_Mechatronics%2C%20Industrial%2C%20and%20IoT%20Communication/Lirazan_Software%20Project_Security%20Door%20Access%20System/Lirazan_Software%20Project_Security%20Door%20Access%20System.jpg" alt="Watch Video">
   </a>
 </p>
-
-## Installation
-
-```bash
-git clone https://github.com/cmdlirazan/KSU-Coursework.git
-cd "KSU-Coursework/MTRE_4410_Mechatronics, Industrial, and IoT Communication"
-```
