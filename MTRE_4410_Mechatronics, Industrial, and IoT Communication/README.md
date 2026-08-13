@@ -15,7 +15,7 @@ Selected projects completed independently for MTRE 4410 at Kennesaw State Univer
 
 **Keywords:** Internet of Things, ESP32, Arduino IoT Cloud, Pet Safety, Smart Home
 
-**Demo:** [![View Demo](https://github.com/cmdlirazan/KSU-Coursework/blob/main/MTRE_4410_Mechatronics%2C%20Industrial%2C%20and%20IoT%20Communication/Lirazan_IoT%20Hardware%20Device%20Project_PetAir/Lirazan_IoT%20Hardware%20Device%20Project_PetAir.jpg)](https://www.dropbox.com/scl/fi/56za36g2u3p1b1y1zc9yl/Lirazan_PetAIR.mov?rlkey=1ujibp0uufnelgyxzf1s0w68j&st=2j76rj2f&dl=1)
+**Demo:** [![View Demo](https://github.com/cmdlirazan/KSU-Coursework/blob/main/MTRE_4410_Mechatronics%2C%20Industrial%2C%20and%20IoT%20Communication/Lirazan_IoT%20Hardware%20Device%20Project_PetAir/Lirazan_IoT%20Hardware%20Device%20Project_PetAir.jpg)](https://www.dropbox.com/scl/fi/56za36g2u3p1b1y1zc9yl/Lirazan_PetAIR.mov?rlkey=1ujibp0uufnelgyxzf1s0w68j&st=2j76rj2f&dl=0)
 
 ### Security Door Access System
 
