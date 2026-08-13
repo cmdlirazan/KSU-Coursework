@@ -18,6 +18,7 @@ Selected projects completed independently for MTRE 3810 at Kennesaw State Univer
 
 
 **Keywords:** ROS, SLAM, autonomous navigation, path planning, mobile robotics, robot localization, Gazebo simulation, RViz, ROS navigation stack, occupancy grid mapping.
+
 **Demo:**
 [View Demos](./Lirazan_HW_2_ROS%20Autonomous%20Mobile%20Robot%20Navigation/Lirazan_HW_2_ROS%20Autonomous%20Mobile%20Robot%20Navigation_Demos)
 
